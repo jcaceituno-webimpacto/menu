@@ -1,0 +1,41 @@
+.menu{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    top: 0px;
+}
+
+.ulPadre{
+	list-style-type: none;
+	padding: 0px;
+    margin: 0;
+    background-color: #FFFFFF;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ulPadre li{
+    float: left;
+    border-left: 1px solid;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.ulPadre li:first-of-type {
+    border-left: 0px;
+}
+
+.ulPadre li a{
+	display: block;
+    font-size: 14px;
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.ulPadre li a:hover{
+    text-decoration: none;
+    color: #4A4A4A;
+}
