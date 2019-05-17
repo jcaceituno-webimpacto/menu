@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './styles.css';
+import { Link } from 'vtex.render-runtime'
 
 
 export default class Menu extends Component {
@@ -45,7 +46,7 @@ export default class Menu extends Component {
         return (
             <ul className={styles.ulPadre}>
                 {links.map((l, i) => 
-                    <li><a href={l.url}>{l.texto}</a></li>
+                    <li><Link to={l.url}>{l.texto}</Link></li>
                 )}
             </ul>
         )
